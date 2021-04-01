@@ -1,0 +1,19 @@
+{% assign tools = site.data.data.sidebar.tools %}
+{% if tools %}
+<div class="tools-container container-block">
+
+  <h2 class="container-block-title">
+    tools
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for tool in tools %}
+    <li>
+      {{ tool.idiom }}
+      <span class="lang-desc">({{ tool.level }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

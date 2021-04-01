@@ -126,7 +126,7 @@ p {
             margin-bottom: 0px;
         }
     }
-    .languages-container {
+    .languages-container, .tools-container {
         .lang-desc {
             color: rgba(256, 256, 256, 0.6);
         }
@@ -167,7 +167,7 @@ p {
         margin-bottom: 20px;
     }
     .section {
-        margin-bottom: 60px;
+        margin-bottom: 45px;
     }
 
     .experiences-section, .educations-section {
@@ -270,4 +270,11 @@ p {
         color: $heart;
     }
 
+}
+
+.project-tagline > p:first-child {
+    display: inline;
+}
+.project-tagline > p {
+    margin: 0;
 }

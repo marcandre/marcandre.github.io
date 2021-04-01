@@ -33,6 +33,16 @@ sidebar:
       - idiom: Spanish
         level: Colloquial
 
+    tools:
+      - idiom: Ruby / Rails
+        level: 13+y
+
+      - idiom: Javascript / TypeScript
+        level: 20+y
+
+      - idiom: Elixir
+        level: Really liking it
+
 career-profile:
     title: Career Profile
     summary: |
@@ -60,6 +70,7 @@ experiences:
         I put in place a development and support team that grew
         to six people and assumed technical supervision of
         our system administrators and hardware support group.
+
 projects:
     title: Open-Source Projects
     intro: >
@@ -92,6 +103,36 @@ projects:
       - title: Featherlight.js
         link: "//noelboss.github.io/featherlight"
         tagline: "JS lightbox, 1.5k+ stars — sole maintainer"
+
+        projects:
+code:
+    title: Code Examples
+    intro: >
+      Some of the most challenging contributions I made to FOSS include:
+    assignments:
+      - title: Ruby AST Pattern Compiler
+        link: "https://github.com/rubocop/rubocop-ast/pull/105"
+        tagline: |
+          RuboCop has a [DSL to match parsed Ruby code](https://github.com/rubocop/rubocop-ast/blob/master/docs/modules/ROOT/pages/node_pattern.adoc).
+          I rewrote it using a lexer / parser / compiler for
+          more flexibility.
+
+          [Here is a technical description of the compiler](https://docs.rubocop.org/rubocop-ast/1.2/node_pattern_compiler.html)
+
+          I also [wrote a playground](https://nodepattern.herokuapp.com/).
+      - title: Ruby Parser Rewriter
+        link: "https://github.com/whitequark/parser/pull/403/files"
+        tagline: |
+          The Ruby [`parser`](https://github.com/whitequark/parser/#parser) gem includes a tool to alter code.
+
+          I [proposed an improved design](https://github.com/whitequark/parser/issues/401)
+          and implemented it using [an immutable tree of nested intervals](https://github.com/whitequark/parser/pull/403/files)
+      - title: Elixir Exercises
+        link: "https://exercism.io/profiles/marcandre"
+        tagline: |
+          I enjoyed solving some exercises on `exercism.io`.
+
+          The most interesting ones can be [seen here](https://exercism.io/profiles/marcandre)
 
 education:
     - degree: M.A. Mathematics
