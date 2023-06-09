@@ -55,7 +55,7 @@ experiences:
     time: 2021 - 2023
     company: Súper Seguros
     details: |
-      Developped in an Elixir/Phoenix/LiveView team of 8 engineers for a Mexican insurance startup, until its failure June 2023.
+      Developped in an Elixir/Phoenix/LiveView team of 8 engineers for a Mexican insurance startup.
       End-to-end tests with Cypress.
   - role: Senior Ruby Developper
     time: 2005 - 2021
