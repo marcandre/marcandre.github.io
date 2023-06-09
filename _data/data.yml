@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Marc-André Lafortune
-  tagline: Full Stack Dev
+  tagline: Full Stack Elixir Dev
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -24,14 +24,14 @@ sidebar:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
   languages:
+    - idiom: Elixir / Phoenix
+      level: 2+y
+
     - idiom: Ruby / Rails
       level: 13+y
 
     - idiom: Javascript / TypeScript
       level: 20+y
-
-    - idiom: Elixir
-      level: Learning and liking it
 
     - idiom: English
       level: Fluent
@@ -42,18 +42,25 @@ sidebar:
     - idiom: Spanish
       level: Colloquial
 
+    - idiom: Portuguese
+      level: Colloquial
+
 career-profile:
   title: Career Profile
   summary: |
     I fell in love with programming at the age of 10 and I am still smitten.
 
 experiences:
-  - role: Senior Developper
+  - role: Senior Elixir Developper
+    time: 2021 - 2023
+    company: Súper Seguros
+    details: |
+      Elixir/Phoenix development for a Mexican insurance startup, until its failure June 2023.
+  - role: Senior Ruby Developper
     time: 2005 - Present
     company: SiteZoogle, SEMi Medical Solutions, Yatter
     details: |
-      Works as an independent contractor for different companies as developer
-      or project lead. 100% remote since '13.
+      Ruby on Rails development for a few companies. 100% remote since 2013.
   - role: VP R&D
     time: 1989 - 2005
     company: Laser Registration
@@ -64,15 +71,23 @@ experiences:
 projects:
   title: Open-Source Projects
   intro: >
-    Fervent open-source supporter, I contribute to dozens of projects including:
+    Fervent open-source supporter, I contribute to dozens of projects.
   assignments:
-    - title: Ruby
-      link: "//www.ruby-lang.org"
-      tagline: "Member of the core team for 10+y"
+    - title: Elixir
+      link: "//github.com/elixir-lang/elixir"
+      tagline: "Reduced Elixir recompilations and other contributions"
 
     - title: RuboCop
       link: "//github.com/rubocop-hq/rubocop"
       tagline: "Member of the core team"
+
+    - title: RuboCop AST
+      link: "//github.com/rubocop-hq/rubocop-ast"
+      tagline: "Main author and [lifter](https://tidelift.com). 175M+ downloads"
+
+    - title: Ruby
+      link: "//www.ruby-lang.org"
+      tagline: "Former member of the core team for 10+y"
 
     - title: Rails
       link: "//rubyonrails.org/"
@@ -80,7 +95,7 @@ projects:
 
     - title: Backports
       link: "//github.com/marcandre/backports"
-      tagline: "Authored this Ruby gem with 75M+ downloads"
+      tagline: "Author and [lifter](https://tidelift.com). 120M+ downloads"
 
     - title: RubySpec
       link: "//github.com/ruby/spec"
@@ -88,11 +103,11 @@ projects:
 
     - title: Parsley.js
       link: "//parsleyjs.org"
-      tagline: "JS validation library, 8k+ stars principal (maintainer)"
+      tagline: "Maintainer of this JS validation library, 9k+ stars"
 
     - title: Featherlight.js
       link: "//noelboss.github.io/featherlight"
-      tagline: "JS lightbox, 1.5k+ stars (maintainer)"
+      tagline: "Maintainer of this JS lightbox, 1.5k+ stars"
 code:
   title: Code Examples
   intro: >
@@ -115,12 +130,16 @@ code:
 
         I [proposed an improved design](https://github.com/whitequark/parser/issues/401)
         and implemented it using [an immutable tree of nested intervals](https://github.com/whitequark/parser/pull/403/files)
-    - title: Elixir Exercises
-      link: "https://exercism.io/profiles/marcandre"
+    - title: Elixir Contributions
+      link: "https://github.com/elixir-lang/elixir/pulls?q=is%3Apr+author%3Amarcandre"
       tagline: |
-        I enjoyed solving some exercises on `exercism.io`.
+        I contributed to Elixir's compiler to reduce recompilations:
 
-        The most interesting ones can be [seen here](https://exercism.io/profiles/marcandre)
+        * Have `behaviour` introduce a runtime dependency instead of compile-time ([PR](https://github.com/elixir-lang/elixir/pull/12103))
+        * Do not recompile unless content of files has actually changed ([PR](https://github.com/elixir-lang/elixir/pull/11080))
+        * Improve `mix xref graph` to identify problematic dependencies ([PR](https://github.com/elixir-lang/elixir/pull/11044) [PR](https://github.com/elixir-lang/elixir/pull/11943))
+
+        These good examples of my capacity to delve into foreign codebases (even hard to read like Elixir's compiler) to make improvements
 
 education:
   - degree: M.A. Mathematics
