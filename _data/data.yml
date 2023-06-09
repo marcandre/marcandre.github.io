@@ -72,6 +72,8 @@ projects:
   title: Open-Source Projects
   intro: >
     Fervent open-source supporter, I contribute to dozens of projects.
+    Thanks to [TideLift](https://tidelift.com) for providing support
+    to `rubocop-ast` and `backports`.
   assignments:
     - title: Elixir
       link: "//github.com/elixir-lang/elixir"
@@ -83,7 +85,7 @@ projects:
 
     - title: RuboCop AST
       link: "//github.com/rubocop-hq/rubocop-ast"
-      tagline: "Main author and [lifter](https://tidelift.com). 175M+ downloads"
+      tagline: "Main author and lifter. 175M+ downloads"
 
     - title: Ruby
       link: "//www.ruby-lang.org"
@@ -95,7 +97,7 @@ projects:
 
     - title: Backports
       link: "//github.com/marcandre/backports"
-      tagline: "Author and [lifter](https://tidelift.com). 120M+ downloads"
+      tagline: "Author and lifter. 120M+ downloads"
 
     - title: RubySpec
       link: "//github.com/ruby/spec"
@@ -113,6 +115,16 @@ code:
   intro: >
     Some of the most challenging contributions I made to FOSS include:
   assignments:
+    - title: Elixir Contributions
+      link: "https://github.com/elixir-lang/elixir/pulls?q=is%3Apr+author%3Amarcandre"
+      tagline: |
+        I contributed to Elixir's compiler to reduce recompilations:
+
+        * Have `behaviour` introduce a runtime dependency instead of compile-time ([PR](https://github.com/elixir-lang/elixir/pull/12103))
+        * Do not recompile unless content of files has actually changed ([PR](https://github.com/elixir-lang/elixir/pull/11080))
+        * Improve `mix xref graph` to identify problematic dependencies ([PR](https://github.com/elixir-lang/elixir/pull/11044), [etc.](https://github.com/elixir-lang/elixir/pull/11943))
+
+        These good examples of my capacity to delve into foreign codebases (even hard to read like Elixir's compiler) to make improvements
     - title: Ruby AST Pattern Compiler
       link: "https://github.com/rubocop/rubocop-ast/pull/105"
       tagline: |
@@ -130,16 +142,6 @@ code:
 
         I [proposed an improved design](https://github.com/whitequark/parser/issues/401)
         and implemented it using [an immutable tree of nested intervals](https://github.com/whitequark/parser/pull/403/files)
-    - title: Elixir Contributions
-      link: "https://github.com/elixir-lang/elixir/pulls?q=is%3Apr+author%3Amarcandre"
-      tagline: |
-        I contributed to Elixir's compiler to reduce recompilations:
-
-        * Have `behaviour` introduce a runtime dependency instead of compile-time ([PR](https://github.com/elixir-lang/elixir/pull/12103))
-        * Do not recompile unless content of files has actually changed ([PR](https://github.com/elixir-lang/elixir/pull/11080))
-        * Improve `mix xref graph` to identify problematic dependencies ([PR](https://github.com/elixir-lang/elixir/pull/11044) [PR](https://github.com/elixir-lang/elixir/pull/11943))
-
-        These good examples of my capacity to delve into foreign codebases (even hard to read like Elixir's compiler) to make improvements
 
 education:
   - degree: M.A. Mathematics
