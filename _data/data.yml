@@ -3,137 +3,137 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Marc-André Lafortune
-    tagline: Full Stack Dev
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Marc-André Lafortune
+  tagline: Full Stack Dev
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: lets_talk@marc-andre.ca
-    phone:
-    github: marcandre
-    linkedin: marcandre
-    gitlab:
-    bitbucket:
-    twitter: '@malafortune'
-    stack-overflow: 8279/marc-andré-lafortune # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: lets_talk@marc-andre.ca
+  phone:
+  github: marcandre
+  linkedin: marcandre
+  gitlab:
+  bitbucket:
+  twitter: "@malafortune"
+  stack-overflow: 8279/marc-andré-lafortune # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: Ruby / Rails
-        level: 13+y
+  languages:
+    - idiom: Ruby / Rails
+      level: 13+y
 
-      - idiom: Javascript / TypeScript
-        level: 20+y
+    - idiom: Javascript / TypeScript
+      level: 20+y
 
-      - idiom: Elixir
-        level: Learning and liking it
+    - idiom: Elixir
+      level: Learning and liking it
 
-      - idiom: English
-        level: Fluent
+    - idiom: English
+      level: Fluent
 
-      - idiom: French
-        level: Native
+    - idiom: French
+      level: Native
 
-      - idiom: Spanish
-        level: Colloquial
+    - idiom: Spanish
+      level: Colloquial
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I fell in love with programming at the age of 10 and I am still smitten.
+  title: Career Profile
+  summary: |
+    I fell in love with programming at the age of 10 and I am still smitten.
 
 experiences:
-    - role: Senior Developper
-      time: 2005 - Present
-      company: SiteZoogle, SEMi Medical Solutions, Yatter
-      details: |
-        Works as an independent contractor for different companies as developer
-        or project lead. 100% remote since '13.
-    - role: VP R&D
-      time: 1989 - 2005
-      company: Laser Registration
-      details: |
-        Co-founded Laser which grew to ~6 M$ of yearly revenue and 70 employees,
-        including my team of 6 programmers.
+  - role: Senior Developper
+    time: 2005 - Present
+    company: SiteZoogle, SEMi Medical Solutions, Yatter
+    details: |
+      Works as an independent contractor for different companies as developer
+      or project lead. 100% remote since '13.
+  - role: VP R&D
+    time: 1989 - 2005
+    company: Laser Registration
+    details: |
+      Co-founded Laser which grew to ~6 M$ of yearly revenue and 70 employees,
+      including my team of 6 programmers.
 
 projects:
-    title: Open-Source Projects
-    intro: >
-      Fervent open-source supporter, I contribute to dozens of projects including:
-    assignments:
-      - title: Ruby
-        link: "//www.ruby-lang.org"
-        tagline: "Member of the core team for 10+y"
+  title: Open-Source Projects
+  intro: >
+    Fervent open-source supporter, I contribute to dozens of projects including:
+  assignments:
+    - title: Ruby
+      link: "//www.ruby-lang.org"
+      tagline: "Member of the core team for 10+y"
 
-      - title: RuboCop
-        link: "//github.com/rubocop-hq/rubocop"
-        tagline: "Member of the core team"
+    - title: RuboCop
+      link: "//github.com/rubocop-hq/rubocop"
+      tagline: "Member of the core team"
 
-      - title: Rails
-        link: "//rubyonrails.org/"
-        tagline: "Top ~100 contributor"
+    - title: Rails
+      link: "//rubyonrails.org/"
+      tagline: "Top ~100 contributor"
 
-      - title: Backports
-        link: "//github.com/marcandre/backports"
-        tagline: "Authored this Ruby gem with 75M+ downloads"
+    - title: Backports
+      link: "//github.com/marcandre/backports"
+      tagline: "Authored this Ruby gem with 75M+ downloads"
 
-      - title: RubySpec
-        link: "//github.com/ruby/spec"
-        tagline: "Committer, 300+ commits"
+    - title: RubySpec
+      link: "//github.com/ruby/spec"
+      tagline: "Committer, 300+ commits"
 
-      - title: Parsley.js
-        link: "//parsleyjs.org"
-        tagline: "JS validation library, 8k+ stars principal (maintainer)"
+    - title: Parsley.js
+      link: "//parsleyjs.org"
+      tagline: "JS validation library, 8k+ stars principal (maintainer)"
 
-      - title: Featherlight.js
-        link: "//noelboss.github.io/featherlight"
-        tagline: "JS lightbox, 1.5k+ stars (maintainer)"
+    - title: Featherlight.js
+      link: "//noelboss.github.io/featherlight"
+      tagline: "JS lightbox, 1.5k+ stars (maintainer)"
 code:
-    title: Code Examples
-    intro: >
-      Some of the most challenging contributions I made to FOSS include:
-    assignments:
-      - title: Ruby AST Pattern Compiler
-        link: "https://github.com/rubocop/rubocop-ast/pull/105"
-        tagline: |
-          RuboCop has a [DSL to match parsed Ruby code](https://github.com/rubocop/rubocop-ast/blob/master/docs/modules/ROOT/pages/node_pattern.adoc).
-          I rewrote it using a lexer / parser / compiler for
-          more flexibility.
+  title: Code Examples
+  intro: >
+    Some of the most challenging contributions I made to FOSS include:
+  assignments:
+    - title: Ruby AST Pattern Compiler
+      link: "https://github.com/rubocop/rubocop-ast/pull/105"
+      tagline: |
+        RuboCop has a [DSL to match parsed Ruby code](https://github.com/rubocop/rubocop-ast/blob/master/docs/modules/ROOT/pages/node_pattern.adoc).
+        I rewrote it using a lexer / parser / compiler for
+        more flexibility.
 
-          Here is a [technical description of the compiler](https://docs.rubocop.org/rubocop-ast/1.2/node_pattern_compiler.html).
+        Here is a [technical description of the compiler](https://docs.rubocop.org/rubocop-ast/1.2/node_pattern_compiler.html).
 
-          I also [wrote a playground](https://nodepattern.herokuapp.com/) for it.
-      - title: Ruby Parser Rewriter
-        link: "https://github.com/whitequark/parser/pull/403/files"
-        tagline: |
-          The Ruby [`parser` gem](https://github.com/whitequark/parser/#parser) includes a tool to alter code.
+        I also [wrote a playground](https://nodepattern.herokuapp.com/) for it.
+    - title: Ruby Parser Rewriter
+      link: "https://github.com/whitequark/parser/pull/403/files"
+      tagline: |
+        The Ruby [`parser` gem](https://github.com/whitequark/parser/#parser) includes a tool to alter code.
 
-          I [proposed an improved design](https://github.com/whitequark/parser/issues/401)
-          and implemented it using [an immutable tree of nested intervals](https://github.com/whitequark/parser/pull/403/files)
-      - title: Elixir Exercises
-        link: "https://exercism.io/profiles/marcandre"
-        tagline: |
-          I enjoyed solving some exercises on `exercism.io`.
+        I [proposed an improved design](https://github.com/whitequark/parser/issues/401)
+        and implemented it using [an immutable tree of nested intervals](https://github.com/whitequark/parser/pull/403/files)
+    - title: Elixir Exercises
+      link: "https://exercism.io/profiles/marcandre"
+      tagline: |
+        I enjoyed solving some exercises on `exercism.io`.
 
-          The most interesting ones can be [seen here](https://exercism.io/profiles/marcandre)
+        The most interesting ones can be [seen here](https://exercism.io/profiles/marcandre)
 
 education:
-    - degree: M.A. Mathematics
-      university: Princeton University
-      time: 1993 - 1999
-      details: |
-        Work with [John H. Conway](https://en.wikipedia.org/wiki/John_Horton_Conway).
-        on mathematical knots.
-    - degree: B. Sc. Mathematics - Physics
-      university: Université de Montréal
-      time: 1989 - 1993
-      details: |
-        Research projects with Yvan Saint-Aubin and [Robert Langlands](https://en.wikipedia.org/wiki/Robert_Langlands).
+  - degree: M.A. Mathematics
+    university: Princeton University
+    time: 1993 - 1999
+    details: |
+      Work with [John H. Conway](https://en.wikipedia.org/wiki/John_Horton_Conway).
+      on mathematical knots.
+  - degree: B. Sc. Mathematics - Physics
+    university: Université de Montréal
+    time: 1989 - 1993
+    details: |
+      Research projects with Yvan Saint-Aubin and [Robert Langlands](https://en.wikipedia.org/wiki/Robert_Langlands).
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
