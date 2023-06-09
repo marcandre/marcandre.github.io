@@ -19,6 +19,7 @@ sidebar:
   gitlab:
   bitbucket:
   twitter: "@malafortune"
+  blog: //blog.marc-andre.ca
   stack-overflow: 8279/marc-andré-lafortune # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -74,11 +75,12 @@ projects:
   intro: >
     Fervent open-source supporter, I contribute to dozens of projects.
     Thanks to [TideLift](https://tidelift.com) for providing support
-    to `rubocop-ast` and `backports`.
+    to [`rubocop-ast`](//github.com/rubocop-hq/rubocop)
+    and [`backports`](//github.com/marcandre/backports).
   assignments:
     - title: Elixir
       link: "//github.com/elixir-lang/elixir"
-      tagline: "Reduced Elixir recompilations and other contributions"
+      tagline: "Top ~60 contributor"
 
     - title: RuboCop
       link: "//github.com/rubocop-hq/rubocop"
@@ -121,11 +123,11 @@ code:
       tagline: |
         I contributed to Elixir's compiler to reduce recompilations:
 
-        * Have `behaviour` introduce a runtime dependency instead of compile-time ([PR](https://github.com/elixir-lang/elixir/pull/12103))
+        * Have `@behaviour` introduce a runtime dependency instead of compile-time ([PR](https://github.com/elixir-lang/elixir/pull/12103))
         * Do not recompile unless content of files has actually changed ([PR](https://github.com/elixir-lang/elixir/pull/11080))
         * Improve `mix xref graph` to identify problematic dependencies ([PR](https://github.com/elixir-lang/elixir/pull/11044), [etc.](https://github.com/elixir-lang/elixir/pull/11943))
 
-        These good examples of my capacity to delve into foreign codebases (even hard to read like Elixir's compiler) to make improvements
+        These are good examples of my capacity to delve into foreign codebases (even hard to read like Elixir's compiler) to make improvements
     - title: Ruby AST Pattern Compiler
       link: "https://github.com/rubocop/rubocop-ast/pull/105"
       tagline: |
