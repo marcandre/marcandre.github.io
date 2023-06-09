@@ -139,12 +139,12 @@ code:
 
         I also [wrote a playground](https://nodepattern.herokuapp.com/) for it.
     - title: Ruby Parser Rewriter
-      link: "https://github.com/whitequark/parser/pull/403/files"
+      link: "https://github.com/whitequark/parser/issues/401"
       tagline: |
         The Ruby [`parser` gem](https://github.com/whitequark/parser/#parser) includes a tool to alter code.
 
         I [proposed an improved design](https://github.com/whitequark/parser/issues/401)
-        and implemented it using [an immutable tree of nested intervals](https://github.com/whitequark/parser/pull/403/files)
+        and implemented it using [an immutable tree of nested intervals](https://github.com/whitequark/parser/pull/403)
 
 education:
   - degree: M.A. Mathematics
