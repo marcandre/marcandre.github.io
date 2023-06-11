@@ -132,8 +132,8 @@ code:
       link: "https://github.com/rubocop/rubocop-ast/pull/105"
       tagline: |
         RuboCop has a [DSL to match parsed Ruby code](https://github.com/rubocop/rubocop-ast/blob/master/docs/modules/ROOT/pages/node_pattern.adoc).
-        I rewrote it using a lexer / parser / compiler for
-        more flexibility.
+        I rewrote it using a lexer / parser / compiler to
+        allow me to add more powerful patterns and implement introspection.
 
         Here is a [technical description of the compiler](https://docs.rubocop.org/rubocop-ast/1.2/node_pattern_compiler.html).
 
