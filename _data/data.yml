@@ -84,27 +84,27 @@ projects:
 
     - title: RuboCop
       link: "//github.com/rubocop-hq/rubocop"
-      tagline: "Member of the core team"
-
-    - title: RuboCop AST
-      link: "//github.com/rubocop-hq/rubocop-ast"
-      tagline: "Main author and lifter. 175M+ downloads"
+      tagline: "Top ~20 contributor, member of the core team"
 
     - title: Ruby
       link: "//www.ruby-lang.org"
-      tagline: "Former member of the core team for 10+y"
+      tagline: "Top ~20 contributor, committer"
+
+    - title: RubySpec
+      link: "//github.com/ruby/spec"
+      tagline: "Top ~10 contributor, committer"
 
     - title: Rails
       link: "//rubyonrails.org/"
       tagline: "Top ~100 contributor"
 
+    - title: RuboCop AST
+      link: "//github.com/rubocop-hq/rubocop-ast"
+      tagline: "Main author and lifter. 175M+ downloads"
+
     - title: Backports
       link: "//github.com/marcandre/backports"
       tagline: "Author and lifter. 120M+ downloads"
-
-    - title: RubySpec
-      link: "//github.com/ruby/spec"
-      tagline: "Committer, 300+ commits"
 
     - title: Parsley.js
       link: "//parsleyjs.org"
