@@ -127,7 +127,8 @@ code:
         * Do not recompile unless content of files has actually changed ([PR](https://github.com/elixir-lang/elixir/pull/11080))
         * Improve `mix xref graph` to identify problematic dependencies ([PR](https://github.com/elixir-lang/elixir/pull/11044), [etc.](https://github.com/elixir-lang/elixir/pull/11943))
 
-        These are good examples of my capacity to delve into foreign codebases (even hard to read like Elixir's compiler) to make improvements
+        These are good examples of my capacity to delve into foreign codebases (even those like Elixir's
+        compiler that are hard to read) to make improvements.
     - title: Ruby AST Pattern Compiler
       link: "https://github.com/rubocop/rubocop-ast/pull/105"
       tagline: |
