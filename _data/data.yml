@@ -82,10 +82,6 @@ projects:
       link: "//github.com/elixir-lang/elixir"
       tagline: "Top ~60 contributor"
 
-    - title: RuboCop
-      link: "//github.com/rubocop-hq/rubocop"
-      tagline: "Top ~20 contributor, member of the core team"
-
     - title: Ruby
       link: "//www.ruby-lang.org"
       tagline: "Top ~20 contributor, committer"
@@ -97,6 +93,10 @@ projects:
     - title: Rails
       link: "//rubyonrails.org/"
       tagline: "Top ~100 contributor"
+
+    - title: RuboCop
+      link: "//github.com/rubocop-hq/rubocop"
+      tagline: "Top ~20 contributor, member of the core team"
 
     - title: RuboCop AST
       link: "//github.com/rubocop-hq/rubocop-ast"
