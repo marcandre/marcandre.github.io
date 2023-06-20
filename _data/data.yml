@@ -57,7 +57,7 @@ experiences:
     company: Súper Seguros
     details: |
       Development with a team of 8 engineers for a Mexican insurance startup.
-      Backend in Elixir/Phoenix/LiveView. End-to-end tests with Cypress.
+      Backend in Elixir/Phoenix/LiveView. Frontend using Tailwind/Alpine. End-to-end tests with Cypress.
   - role: Senior Ruby Developer
     time: 2005 - 2021
     company: SiteZoogle, SEMi Medical Solutions, Yatter
